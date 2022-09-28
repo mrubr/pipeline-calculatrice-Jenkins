@@ -48,7 +48,7 @@ pipeline {
         stage('Branch') {
             agent any
             steps {
-                echo 'une_branche'
+                echo 'main'
             }  
         }
     }
