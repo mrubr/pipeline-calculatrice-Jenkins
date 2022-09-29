@@ -49,6 +49,7 @@ pipeline {
             agent any
             steps {
                 echo 'main'
+                echo 'main main'
             }  
         }
     }
